@@ -71,8 +71,6 @@ When the codespace start up, it will run a Streamlit Hello World app for you whi
 
 Let us now build a real application we will use the following architecture
 
-![steps](./assets/steps.png)
-
 In this workshop we'll use Streamlit which is an amazingly simple to use framework to create front-end web applications.
 
 To get started, let's create a *hello world* application as follows:
@@ -244,8 +242,6 @@ Now things become really interesting! In this step we'll integrate the Astra DB 
 
 We will reuse the data we inserted thanks to the notebook.
 
-![data-explorer](./assets/data-explorer.png)
-
 In order to enable this, we first have to set up a connection to the Astra DB Vector Store:
 
 ```python
@@ -401,29 +397,11 @@ streamlit run app_7.py
 
 Now upload a PDF document (the more the merrier) that is relevant to you and start asking questions about it. You'll see that the answers will be relevant, meaningful and contextual! 🥳 See the magic happen!
 
-![end-result](./assets/end-result.png)
-
 ## 1️⃣1️⃣ Let's deploy this cool stuff to Streamlit cloud!
 In this step we'll deploy your awesome app to the internet so everyone can enjoy your cool work and be amazed!
 
 ### Set up your Streamlit account
 If you have not do so before, please set up your account on Streamlit. When you already have an account skip to the next step and deploy the app.
-
-1. Head over to [Streamlit.io](https://streamlit.io) and clikc `Sign up`. Then select `Continue with Github`:
-
-    ![Streamlit](./assets/streamlit-0.png)
-
-2. Log in using your Github credentials:
-
-    ![Streamlit](./assets/streamlit-1.png)
-
-3. Now authorize Streamlit:
-
-    ![Streamlit](./assets/streamlit-2.png)
-
-4. And set up your account:
-
-    ![Streamlit](./assets/streamlit-3.png)
 
 ### Deploy your app
 
@@ -431,11 +409,7 @@ On the main screen, when logged in, click `New app`.
 
 1. When this is your first deployment, provide additional permissions:
 
-    ![Streamlit](./assets/streamlit-4.png)
-
 2. Now define your application settings. Use YOUR repository name, and name the Main file path as `app_7.py`. Pick a cool App URL as you'll app will be deployed to that:
-
-    ![Streamlit](./assets/streamlit-5.png)
 
 3. Click on Advanced, select Python 3.11 and copy-paste the contents from your `secrets.toml`.
 
