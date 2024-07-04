@@ -3,8 +3,6 @@ Welcome to this workshop to build and deploy your own Chatbot using Retrieval Au
 
 It leverages [DataStax RAGStack](https://docs.datastax.com/en/ragstack/docs/index.html), which is a curated stack of the best open-source software for easing implementation of the RAG pattern in production-ready applications that use Astra Vector DB or Apache Cassandra as a vector store.
 
-![codespace](./assets/chatbot.png)
-
 What you'll learn:
 - 🤩 How to leverage [DataStax RAGStack](https://docs.datastax.com/en/ragstack/docs/index.html) for production-ready use of the following components:
     - 🚀 The [Astra DB Vector Store](https://db.new) for Semantic Similarity search
@@ -33,18 +31,12 @@ Make sure you have a vector-capable Astra database (get one for free at [astra.d
 - You will be asked to provide the **API Endpoint** which can be found in the right pane underneath *Database details*.
 - Ensure you have an **Application Token** for your database which can be created in the right pane underneath *Database details*.
 
-![codespace](./assets/astra.png)
-
 ### Sign up for OpenAI
 - Create an [OpenAI account](https://platform.openai.com/signup) or [sign in](https://platform.openai.com/login).
 - Navigate to the [API key page](https://platform.openai.com/account/api-keys) and create a new **Secret Key**, optionally naming the key.
 
-![codespace](./assets/openai-key.png)
-
 ### Sign up for Streamlit
 Follow the steps outlined [here](https://docs.streamlit.io/streamlit-community-cloud/get-started/quickstart).
-
-![codespace](./assets/streamlit.png)
 
 ## 2️⃣ First try the concepts in a Colab Notebook
 To kick this workshop off, we'll first try the concepts in a [Colab Notebook](https://colab.research.google.com/drive/1_n-QZyuP898JNaX7RDnCmw9lkibgEuP-).
@@ -61,23 +53,15 @@ You'll learn:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1_n-QZyuP898JNaX7RDnCmw9lkibgEuP-#scrollTo=RUbC-NIgkSR9)
 
-![codespace](./assets/collab.png)
-
 ## 3️⃣ Open this tutorial on Github Codespaces
 To make life easier, we'll use the awesome Github Codespace functionality. Github offers you a completely integrated developer experience and resources to get started quickly. How?
 
 1. Open the [build-your-own-rag-agent](https://github.com/michelderu/build-your-own-rag-agent) repository
 2. Click on `Use this template`->`Ceate new repository` as follows:
 
-    ![codespace](./assets/create-new-repository.png)
-
 3. Now select your github account and name the new repository. Ideally also set the description. Click `Create repository`
 
-    ![codespace](./assets/repository-name.png)
-
 4. Cool! You just created a copy in your own Gihub account! Now let's get started with coding. Click `Create codespace on main` as follows:
-
-    ![codespace](./assets/create-codespace.png)
 
 And you're ready to rock and roll! 🥳  
 As Codespaces creates your dev environment based on `Python 3.11`, it will automatically install the Python dependecies from `requirements.txt`. So, no need to `pip install` anything here. It will also set up prt forwarding so you can access subsequent Streamlit apps from anywhere.  
